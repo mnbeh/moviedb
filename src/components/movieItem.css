@@ -1,0 +1,32 @@
+.movieItem {
+    display: flex;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movieItem img {
+    width: 200px;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+}
+
+.movieItem button {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #4287f5;
+    font-size: 16px;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.movieItem button:active {
+    position: relative;
+    top: 1px;
+}
+
+.movieOverview {
+    padding: 5px 15px 15px 15px;
+}

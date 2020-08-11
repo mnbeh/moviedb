@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #F3F7FA;
+}
+
+.Navbar {
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: black;
+}
+
+.Navbar a {
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 430px;
+}
